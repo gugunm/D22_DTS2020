@@ -5,66 +5,61 @@
 
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-    .ketua {
-      width: 50%;
-      margin: auto;
-      box-sizing: border-box;
-    }
-  
-    .members {
-      margin-top: 60px;
-    }
-  
-    .members .atas {
-      margin-top: 40px;
-    }
-  
-    .members .atas,
-    .members .bawah {
-      float: left;
-      width: 100%;
-    }
-    .member {
-      width: 50%;
-      margin: 50px 0px;
-    }
+  .ketua {
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
   }
-  
-  /* Untuk Smartphone */
-  @media all and (max-width: 670px) {
-    .header-logo{
-      padding: 0 20px;
-    }
 
-    .header-right {
-      display: none;
-    }
-  
-    .menu-icon {
-      display: block;
-    }
-  
-    .ketua {
-      width: 100%;
-      margin: auto;
-      box-sizing: border-box;
-    }
-  
-    .members {
-      margin-top: 60px;
-    }
-  
-    .member {
-      width: 100%;
-      margin: 50px 0px;
-    }
-
-    .header-list {
-      display: none;
-    }
-
-    footer {
-    text-align: center;
+  .members {
+    margin-top: 60px;
   }
+
+  .members .atas {
+    margin-top: 40px;
   }
-  
+
+  .members .atas,
+  .members .bawah {
+    float: left;
+    width: 100%;
+  }
+  .member {
+    width: 50%;
+    margin: 50px 0px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-logo{
+    padding: 0 20px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .ketua {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .members {
+    margin-top: 60px;
+  }
+
+  .member {
+    width: 100%;
+    margin: 50px 0px;
+  }
+
+  .header-list {
+    display: none;
+  }
+}
