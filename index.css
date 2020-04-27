@@ -2,6 +2,10 @@
   Script to edit the style
 */
 
+p{
+  text-align: center;
+}
+
 a {
   display: inline-block;
 }
