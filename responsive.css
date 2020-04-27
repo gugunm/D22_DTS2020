@@ -62,4 +62,11 @@
   .header-list {
     display: none;
   }
+
+  .contact-form {
+    text-align: center;
+  }
+  .contact-submit {
+    margin: auto;
+  }
 }
