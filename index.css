@@ -68,7 +68,7 @@ header {
 
 /* IMAGE INTI */
 .top-wrapper {
-  padding: 200px 0 120px 0;
+  padding: 200px 0 200px 0;
   text-align: center;
   background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
   background-size: cover;
@@ -197,4 +197,35 @@ footer {
   color: white;
   display: block;
   cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+  background-color: rgba(0, 98, 143, 0.8);
+  padding: 30px 0px 40px 0px;
+}
+
+.judul-features h1{
+  text-align: center;
+  color: f1f1f1;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.feature {
+  text-align: center;
+  background-color: white;
+  border-radius: 3px;
+  padding: 20px;
+  width: 30%;
+  margin: 10px auto;
+}
+
+.feature p{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'PT Sans', sans-serif !important;
 }
